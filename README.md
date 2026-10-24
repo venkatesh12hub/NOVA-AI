@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NOVA AI
 
 NOVA AI is a React/Vite chat interface backed by FastAPI and the Groq Cloud Chat Completions API. It streams answers as they are generated and keeps each browser chat in its own in-memory server session.
@@ -63,3 +64,7 @@ For GitHub Pages, build with `VITE_API_URL` set to the Render URL and `VITE_BASE
 - “Missing GROQ_API_KEY”: set the key in the backend terminal or Render environment, then restart the backend.
 - CORS failure: add the exact frontend origin to `CORS_ORIGINS`, restart the API, and refresh the browser.
 - Conversations are kept in memory and are cleared when the server restarts. Use Redis or a database before relying on history in production.
+=======
+# NOVA-AI
+Full-stack NOVA AI application built with React, Vite, FastAPI, and Groq
+>>>>>>> 54ce28b7b56e089717238d62115ad8d973076a96
