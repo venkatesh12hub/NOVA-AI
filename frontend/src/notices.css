@@ -1,0 +1,13 @@
+.notice {
+  max-width: 768px;
+  margin: 0 auto 8px;
+  padding: 9px 13px;
+  border: 1px solid var(--notice-border, #685d39);
+  border-radius: 10px;
+  background: var(--notice-bg, #393323);
+  color: var(--notice-color, #f2ddb0);
+  font-size: 13px;
+  line-height: 1.4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
